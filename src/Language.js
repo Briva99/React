@@ -1,17 +1,31 @@
 import React from 'react'
 
 class Language extends React.Component {
+
+        constructor(props){
+            super(props);
+            this.setState={change:false}
+        }
+
     render() {
+        let modal;
+            if(this.state.change){
+                modal=' '
+            }
         return (
             <div className='item-soal'>
                 <div className='nama-soal'>{this.props.soal}</div>
-                    if (type==='button'){
+                   {modal}
+                   
+                   
+                   
+                    {/* if (type==='button'){
 
                     }else if(type==='checkBox'){
 
                     } else (type==='essy'){
 
-                    }
+                    } */}
 
                 {/* <div className='form'>
                     <form>
