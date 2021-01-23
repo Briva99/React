@@ -8,14 +8,14 @@ class Language extends React.Component {
         }
 
     render() {
-        let modal;
-            if(this.state.change){
-                modal=' '
-            }
+        // let modal;
+        //     if(this.state.change){
+        //         modal=' '
+        //     }
         return (
             <div className='item-soal'>
                 <div className='nama-soal'>{this.props.soal}</div>
-                   {modal}
+                   {/* {modal} */}
                    
                    
                    
@@ -27,11 +27,11 @@ class Language extends React.Component {
 
                     } */}
 
-                {/* <div className='form'>
+                 <div className='form'>
                     <form>
                         <textarea type={this.props.type}/>
                     </form>
-                </div> */}
+                </div> 
 
             </div>
         )
